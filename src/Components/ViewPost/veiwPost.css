@@ -1,0 +1,128 @@
+
+.posts{
+    background-color: rgba(0, 255, 255, 0.384);
+    margin: .3rem;
+    padding: .3rem;
+    border-radius: 1.5rem;
+    height: auto;
+}
+.posts .postHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    /* margin-bottom: -10%; */
+}
+.posts .postHeader .postUser{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+/*  */
+.postBar .postBarBtn{
+    padding: .2rem .4rem;
+    border-radius: 49%;
+    font-size: 1.5rem;
+    background: none;
+    cursor: pointer;
+    font-family: monospace;
+    letter-spacing: -7px;
+    margin: 0 .5rem;
+    border: none;
+}
+.postBar .postBarBtn:hover{
+    background: wheat;
+}
+
+
+
+.posts hr{
+    color: aliceblue;
+}
+.posts .postHeader .postUser .postUserImg img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 2px solid rgb(110, 108, 108);
+}
+.posts .postHeader .postUser .postUserInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-1rem ;
+    margin-left: .5rem;
+}
+.posts .postHeader .postUser .postUserInfo .link{
+    color: black;
+}
+
+.postBody{
+    padding: 0 0 0 2rem ;
+}
+
+.postBody h3{
+    margin: 0  ;
+    margin-bottom: .3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    color: aliceblue;
+    background-color: rgba(0, 255, 255, 0.281);
+    padding: .2rem .4rem;
+    width: 90%;
+    border-radius: .5rem;
+}
+
+.postBody p{
+    margin: 0  ;
+    margin-bottom: .3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    color: rgb(38, 40, 41);
+    background-color: rgba(0, 255, 255, 0.281);
+    padding: .2rem .4rem;
+    width: 90%;
+    border-radius: .5rem;
+}
+
+.postFotter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 3rem;
+    border-radius: 2rem;
+    background-color: rgba(0, 255, 255, 0.452);
+}
+
+.like .likeBtn{
+    padding: .4rem .6rem;
+    border-radius: 49%;
+    font-size: 1.2rem;
+    background-color: rgb(228, 233, 233);
+    cursor: pointer;
+    margin: 0 .5rem;
+}
+.like .likeBtn:focus{
+    background-color: rgb(5, 80, 80);
+}
+.like .dislikeBtn{
+    padding: .4rem .6rem;
+    border-radius: 49%;
+    font-size: 1.2rem;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 0 .5rem;
+}
+
+.like .dislikeBtn:focus{
+    background-color: rgb(5, 80, 80);
+}
+.comment .commentBtn{
+    padding: .4rem .6rem;
+    border-radius: 49%;
+    font-size: 1.2rem;
+    background-color: rgba(0, 255, 255, 0.384);
+    cursor: pointer;
+    margin: 0 .5rem;
+}
+

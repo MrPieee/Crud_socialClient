@@ -1,0 +1,18 @@
+ 
+ .homeHeader{
+    border-bottom: 2px solid beige;
+    margin: 0 1rem 0 0;
+    padding: 1rem;
+    text-align: center;
+ }
+.createPostBtn{
+    font-size: 1.4rem;
+    padding: .4rem .8rem;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    cursor: pointer;
+}
+

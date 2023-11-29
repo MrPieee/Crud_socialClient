@@ -1,0 +1,72 @@
+
+.emailLogIn{
+    display: flex;
+    flex-direction: column;
+    /* width: 30rem; */
+    justify-content: center;
+    align-items: center;
+}
+.emailLogIn p{
+    font-size: 1.1rem;
+    color: darkolivegreen;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.LogInForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.LogInForm input{
+    width: 20rem;
+    height: 4rem;
+    border-radius: .2rem;
+    background: none;
+    color: rgb(116, 66, 1);
+    font-size: 1.2rem;
+    font-family: monospace;
+    font-style: italic;
+    margin: 1rem;
+}
+
+.LogInForm button{
+    width: 10rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+    background-color: rgb(84, 136, 6);
+    border-radius: .3rem;
+    border: none;
+    outline: none;
+}
+
+.emailLogIn p button{
+    font-size: 1.1rem;
+    color: rgb(148, 3, 116);
+    font-family: monospace;
+    font-style: italic;
+    font-weight: 600;
+    background: none;
+    border: none;
+}
+
+.emailLogIn p button:hover{
+    color: rgb(148, 3, 116);
+    border-bottom: 2px solid blue;
+}
+
+.googleLogIn{
+    text-align: center;
+}
+
+.googleLogIn button{
+    width: 15rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+    background:linear-gradient(to right, blue, red, yellow, blue,green, red);
+    border-radius: .3rem;
+    border: none;
+    color: rgb(1, 14, 13);
+    outline: none;
+}

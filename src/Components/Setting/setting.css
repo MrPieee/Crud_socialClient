@@ -1,0 +1,162 @@
+.settingCont{
+    padding: 1rem;
+}
+
+.settingHeader{
+    margin-top: -2rem;
+    margin-left: -2rem;
+    /* background-color: rgba(0, 255, 255, 0.384); */
+    padding: .3rem;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+    border-radius: 10rem;
+    backdrop-filter: blur(2rem);
+}
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+.back .backBtn{
+    padding: .4rem .6rem;
+    border-radius: 49%;
+    font-size: 1.2rem;
+    background: none;
+    cursor: pointer;
+    border: none;
+    color: aliceblue;
+}
+.back .backBtn:hover{
+    background-color: rgba(0, 255, 255, 0.384);
+}
+.back .backBtn:focus{
+    background-color: rgba(0, 255, 255, 0.473);
+}
+
+
+.settingCntrl{
+    margin: 1rem ;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.settingCntrl ul{
+    list-style-type: none;
+}
+
+.settingCntrl ul li{
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: aliceblue;
+    width: 17rem;
+    padding: .5rem 1rem;
+    margin: 1rem;
+    border-radius: .3rem;
+    box-shadow: 0 1px 2px 2px snow;
+    transition: 1s;
+}
+.settingCntrl ul li:hover{
+    transform: scale(0.9);
+}
+
+.settingCntrl ul li .setLink{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.settingCntrl ul li button{
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: aliceblue;
+    background: none;
+    border: none;
+}
+
+.accountControll{
+    background-color: rgba(187, 92, 68, 0.452);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    margin: 2rem;
+    display: none;transition: 1s;
+}
+
+.accountControllHeader{
+    padding: .3rem;
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+    border-radius: 10rem;
+    backdrop-filter: blur(2rem);
+}
+.accountControllHeader .info h2{
+    font-size: 1.1rem;
+}
+.accountControll .userInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.accountControll .userInfo #username{
+  font-size: 1.6rem;
+  color: greenyellow;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 1rem;
+}
+
+.deleteAct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deleteAct button{
+    padding: .5rem 1rem ;
+    font-size: 1.1rem;
+    font-weight: 800;background-color: rgb(247, 4, 133);
+    border: none;
+    border-radius: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(247, 247, 247);
+    text-transform: capitalize;
+}
+.sure{
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 1.5rem;
+    width: 70%;
+    height: 16rem;
+    border-radius: 1.5rem;
+    /* position: relative; */
+    margin-top: -15rem;
+}
+.sure h3{
+    font-size: 1.2rem ;
+    margin: 2rem 0 0 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: teal;
+}
+
+#yesBtn{
+    background-color: rgb(202, 17, 17);
+    margin: 2rem;
+}#yesBtn:focus{
+    background-color: rgb(255, 0, 0);
+}
+
+#noBtn{
+    background-color: rgb(39, 161, 39);
+}#noBtn:focus{
+    background-color: green;
+}

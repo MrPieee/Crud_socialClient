@@ -1,0 +1,78 @@
+ .suggetion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggetion .loder{
+    background-color: black;
+}
+
+.sugggHeader h1{
+    font-size: 1.5rem;
+    border-bottom: 2px double rgb(17, 10, 1);
+    padding: .2rem;
+    color: rgb(10, 11, 100);
+    font-family: 'Courier New', Courier, monospace;
+}
+.suggPeople{
+    padding: .5rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.suggPeople .fluinfo{
+    border-radius: .5rem;
+    box-shadow: 0 1px 2px 2px rgb(130, 133, 131);
+    margin: .6rem;
+    width: 17rem;
+}
+
+.suggPeople .fluinfo ul{
+    list-style-type: circle;
+    list-style-position: outside;
+}
+
+.suggPeople .fluinfo ul li{
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.suggPeople .fluinfo ul li .flLink{
+    color: rgb(95, 97, 4);
+    
+}
+
+.suggPeople .fluinfo ul li button{
+    background: none;
+    font-size: .9rem;
+    border: 1px solid rgb(69, 5, 85);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(5, 66, 24);
+    font-weight: 500;
+    border-radius: 1rem;
+}
+.suggPeople .fluinfo ul li button:hover{
+    background-color: deeppink;
+    color: black;
+}
+
+.suggPeople .fluinfo ul li button:focus{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.suggPeople .fluinfo #UnfollowBtn{
+    display: none;
+}
+
+
+.suggPeople .fluinfo #followBtn{
+    display: inline;
+}
+
+
+
+
+

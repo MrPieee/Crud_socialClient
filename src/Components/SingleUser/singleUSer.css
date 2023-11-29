@@ -1,0 +1,133 @@
+.singleUser .profileHeader{
+    margin-top: -7rem;
+    margin-left: -1rem;
+    /* background-color: rgba(0, 255, 255, 0.384); */
+    padding: .3rem;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    backdrop-filter: blur(2rem);
+}
+.singleUser .back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+.singleUser .back .backBtn{
+    padding: .4rem .6rem;
+    border-radius: 49%;
+    font-size: 1.2rem;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+.singleUser .back .backBtn:hover{
+    background-color: rgba(0, 255, 255, 0.384);
+}
+.singleUser .back .backBtn:focus{
+    background-color: rgba(0, 255, 255, 0.473);
+}
+.singleUser .info h2 ,p{
+    margin: 0 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: aliceblue;
+}
+.singleUser .info p{
+    font-size: .8rem;
+}
+.singleUser .userInfo {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 .3px 2px  rgba(0, 255, 255, 0.233) ;
+}
+
+.singleUser .profilePhoto .Pp{
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    border-radius: 50%;
+    border: .4rem solid blanchedalmond;
+    box-shadow: 0rem .1rem 1rem 1rem rgba(0, 255, 255, 0.233) ;
+}
+.singleUser .profileOther{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+.singleUser .profileOther #username{
+    font-size: 1.1rem;
+    color: rgb(21, 170, 138);
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.singleUser .profileOther #username:hover{
+    text-decoration: solid;
+}
+
+.singleUser .profileOther #name{
+    font-size: 1.3rem;
+    width: 10rem;
+    color: rgb(46, 221, 183);
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+.singleUser .profileOther #bio{
+    font-size: 1rem;
+    text-align: center;
+    width: 15rem;
+    color: rgb(46, 221, 183);
+    font-style: italic;
+    font-weight: 600;
+    font-family: monospace;
+}
+.singleUser .userInfo p{
+    margin: .5rem;
+}
+
+.singleUser .follow{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.singleUser .follow p{
+    font-size: 1.1rem;
+    text-align: center;
+    color: rgb(198, 252, 240);
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid black;
+    padding: .2rem .4rem;
+}
+
+.followBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.followBtn button{
+    font-size: 1.2rem;
+    background: none;
+    padding: .2rem .4rem;
+    color: rgb(156, 229, 151);
+    outline: none;border:1px solid aquamarine;
+    cursor: pointer;
+}

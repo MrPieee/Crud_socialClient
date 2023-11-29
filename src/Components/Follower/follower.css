@@ -1,0 +1,125 @@
+.followContainer{
+    padding: 1rem;
+}
+
+.followHeader{
+    margin-top: -2rem;
+    margin-left: -2rem;
+    /* background-color: rgba(0, 255, 255, 0.384); */
+    padding: .3rem;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    backdrop-filter: blur(2rem);
+}
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+.back .backBtn{
+    padding: .4rem .6rem;
+    border-radius: 49%;
+    font-size: 1.2rem;
+    background: none;
+    cursor: pointer;
+    border: none;
+    color: aliceblue;
+}
+.back .backBtn:hover{
+    background-color: rgba(0, 255, 255, 0.384);
+}
+.back .backBtn:focus{
+    background-color: rgba(0, 255, 255, 0.473);
+}
+
+.followHandler{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 1rem 1rem 1rem;
+
+}
+
+.followHandler button{
+    margin: 1rem;
+    background-color: aliceblue;
+    border: 1px solid sandybrown;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+.followHandler button:focus{
+    background-color: rgb(9, 221, 136);
+    border: 1px solid rgb(6, 125, 230);
+    border-radius: 1rem;
+}
+
+.following ,.follower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.follower{
+    display: none;
+}
+
+.following h3,.follower h3{
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(255, 0, 234);
+  font-weight: 600;
+  border-radius: 1rem;
+  border: 2px solid darkorange;
+  padding: .3rem .6rem;
+}
+
+.fluinfo{
+    border-radius: .5rem;
+    box-shadow: 0 1px 2px 2px darkcyan;
+    margin: .2rem;
+    width: 17rem;
+}
+
+.fluinfo ul{
+    list-style-type: circle;
+    list-style-position: outside;
+}
+
+.fluinfo ul li{
+    list-style-type: circle;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.fluinfo ul li .flLink{
+    color: aliceblue;
+}
+
+.fluinfo ul li button{
+    background: none;
+    border: 1px solid yellow;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(135, 222, 161);
+    font-weight: 500;
+    border-radius: 1rem;
+}
+.fluinfo ul li button:hover{
+    background-color: deeppink;
+    color: black;
+}
+
+.fluinfo ul li button:focus{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+#followBtn{
+    display: none;
+}

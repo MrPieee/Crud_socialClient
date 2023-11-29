@@ -1,0 +1,63 @@
+.emailSignUp{
+    display: flex;
+    flex-direction: column;
+    /* width: 30rem; */
+    justify-content: center;
+    align-items: center;
+}
+.emailSignUp p{
+    font-size: 1.1rem;
+    color: darkolivegreen;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.signUpForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.signUpForm input{
+    width: 20rem;
+    height: 4rem;
+    border-radius: .2rem;
+    background: none;
+    color: rgb(116, 66, 1);
+    font-size: 1.2rem;
+    font-family: monospace;
+    font-style: italic;
+    margin: 1rem;
+}
+
+.signUpForm button{
+    width: 10rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+    background-color: rgb(84, 136, 6);
+    border-radius: .3rem;
+    border: none;
+    outline: none;
+    transition: .6s;
+}
+
+.signUpForm button:hover{
+    background-color: rgb(107, 175, 5);
+    transform: scale(1.1);
+}
+
+.emailSignUp p button{
+    font-size: 1.1rem;
+    color: rgb(148, 3, 116);
+    font-family: monospace;
+    font-style: italic;
+    font-weight: 600;
+    background: none;
+    border: none;
+}
+
+.emailSignUp p button:hover{
+    color: rgb(148, 3, 116);
+    border-bottom: 2px solid blue;
+}
+

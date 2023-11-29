@@ -1,0 +1,278 @@
+.profileHeader{
+    margin-top: -7rem;
+    margin-left: -1rem;
+    /* background-color: rgba(0, 255, 255, 0.384); */
+    padding: .3rem;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    backdrop-filter: blur(2rem);
+}
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+.back .backBtn{
+    padding: .4rem .6rem;
+    border-radius: 49%;
+    font-size: 1.2rem;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+.back .backBtn:hover{
+    background-color: rgba(0, 255, 255, 0.384);
+}
+.back .backBtn:focus{
+    background-color: rgba(0, 255, 255, 0.473);
+}
+.info h2 ,p{
+    margin: 0 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: aliceblue;
+}
+.info p{
+    font-size: .8rem;
+}
+.userInfo {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+.profilePhoto .Pp{
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    border-radius: 50%;
+    border: .4rem solid blanchedalmond;
+    box-shadow: 0rem .1rem 1rem 1rem blanchedalmond ;
+}
+.profileOther{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+.profileOther #username{
+    font-size: 1.1rem;
+    color: rgb(21, 170, 138);
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.profileOther #username:hover{
+    text-decoration: solid;
+}
+
+.profileOther #name{
+    font-size: 1.3rem;
+    width: 10rem;
+    color: rgb(46, 221, 183);
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+.profileOther #bio{
+    font-size: 1rem;
+    text-align: center;
+    width: 15rem;
+    color: rgb(46, 221, 183);
+    font-style: italic;
+    font-weight: 600;
+    font-family: monospace;
+}
+.userInfo p{
+    margin: .5rem;
+}
+
+.follow{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.follow p{
+    font-size: 1.1rem;
+    text-align: center;
+    color: rgb(198, 252, 240);
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid black;
+    padding: .2rem .4rem;
+}
+
+.edit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.edit button{
+    font-size: 1.2rem;
+    background: none;
+    padding: .2rem .4rem;
+    color: rgb(156, 229, 151);
+    outline: none;border:1px solid aquamarine;
+    cursor: pointer;
+}
+
+
+.userPosts{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem 2rem 2rem ;
+    /* height: 100%; */
+}
+
+.userPosts .head{
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    color: rgb(251, 255, 0);
+    border-bottom: 4px double beige;
+    width: 5rem;
+}
+.userPosts .head span{
+    font-size: 1.9rem;
+    color: rgb(217, 255, 0);
+    box-shadow: 0 6px 10px 3px rgb(208, 255, 0);
+    border-radius: 100%;
+}
+.postLink{
+    text-decoration: none;
+}
+.posts{
+    background-color: rgba(0, 255, 255, 0.384);
+    margin: .3rem;
+    padding: .3rem;
+    border-radius: 1.5rem;
+    height: auto;
+}
+.posts .postHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    /* margin-bottom: -10%; */
+}
+.posts .postHeader .postUser{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+/*  */
+.postBar .postBarBtn{
+    padding: .2rem .4rem;
+    border-radius: 49%;
+    font-size: 1.5rem;
+    background: none;
+    cursor: pointer;
+    font-family: monospace;
+    letter-spacing: -7px;
+    margin: 0 .5rem;
+    border: none;
+}
+.postBar .postBarBtn:hover{
+    background: wheat;
+}
+
+
+
+.posts hr{
+    color: aliceblue;
+}
+.posts .postHeader .postUser .postUserImg img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.posts .postHeader .postUser .postUserInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-1rem ;
+    margin-left: .5rem;
+}
+.posts .postHeader .postUser .postUserInfo .link{
+    color: black;
+}
+
+.postBody{
+    padding: 0 0 0 2rem ;
+}
+
+.postBody h3{
+    margin: 0  ;
+    margin-bottom: .3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    color: aliceblue;
+    background-color: rgba(0, 255, 255, 0.281);
+    padding: .2rem .4rem;
+    width: 90%;
+    border-radius: .5rem;
+}
+
+.postBody p{
+    margin: 0  ;
+    margin-bottom: .3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    color: rgb(38, 40, 41);
+    background-color: rgba(0, 255, 255, 0.281);
+    padding: .2rem .4rem;
+    width: 90%;
+    border-radius: .5rem;
+}
+
+.postFotter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 3rem;
+    border-radius: 2rem;
+    background-color: rgba(0, 255, 255, 0.452);
+}
+
+.like .likeBtn{
+    padding: .4rem .6rem;
+    border-radius: 49%;
+    font-size: 1.2rem;
+    background-color: rgba(0, 255, 255, 0.384);
+    cursor: pointer;
+    margin: 0 .5rem;
+}
+
+.like .dislikeBtn{
+    padding: .4rem .6rem;
+    border-radius: 49%;
+    font-size: 1.2rem;
+    background-color: rgba(0, 255, 255, 0.384);
+    cursor: pointer;
+    margin: 0 .5rem;
+}
+
+.comment .commentBtn{
+    padding: .4rem .6rem;
+    border-radius: 49%;
+    font-size: 1.2rem;
+    background-color: rgba(0, 255, 255, 0.384);
+    cursor: pointer;
+    margin: 0 .5rem;
+}
+

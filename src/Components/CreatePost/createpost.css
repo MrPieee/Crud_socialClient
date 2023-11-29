@@ -1,0 +1,74 @@
+
+
+.createPost{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.postForm{
+    /* background-color: rgb(26, 4, 49); */
+    padding: 1rem 2rem;
+    width: 70%;
+}
+
+.nameEmail{
+    width: 20rem;
+    height: 3rem;
+    background: none;
+    border: 2px solid yellow;
+    outline: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: monospace;
+    font-style: italic;
+    color: rgb(234, 0, 255);
+    margin: 1rem;
+    border-radius: .4rem;
+}
+
+.title{
+    width: 23rem;
+    height: 5rem;
+    background: none;
+    border: 2px solid yellow;
+    outline: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: aliceblue;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+#textarea{
+    width: 23rem;
+    height: 15rem;
+    border-radius: 1rem;
+    background: none;
+    border: 2px solid yellow;
+    outline: none;
+    font-size: 1.4rem;
+    color: aliceblue;
+    margin: 1rem;
+    resize: none;
+    /* text-align: center; */
+}
+
+.postBtn{
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: monospace;
+    padding: 1rem 0;
+    width: 20rem;
+    background: rgb(0, 252, 0);
+    border: none;
+    color: rgb(23, 1, 31);
+    outline: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+
+
+
+
+

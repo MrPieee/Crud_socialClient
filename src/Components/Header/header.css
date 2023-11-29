@@ -1,0 +1,118 @@
+.headerContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  margin-top: 5rem;
+}
+.logo h1{
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  border-radius: 50%;
+  border: 3px solid yellow;
+ 
+}
+.logoLink{
+  color: rgb(9, 147, 202);
+  text-decoration: none;
+}
+ .logoLink span{
+  color: rgb(248, 3, 215);
+}
+.headerContainer nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headerContainer nav ul{
+  list-style-type: none;
+}
+
+.headerContainer nav ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: -2rem;
+}
+  .headerContainer ul .link_list{
+    margin: .5rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(19, 47, 107, 0.562);
+    padding: 1rem 2rem;
+    width: 8rem;
+    text-align: center;
+    font-size: 1.3rem;font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 1s;
+  }
+  .headerContainer ul .link_list:hover{
+    background-color: rgb(18, 179, 219);
+    transform: scale(1.1);
+  }
+
+  .headerContainer ul .link{
+    color: rgb(255, 238, 0);
+    transition: 1s;
+  }
+
+  .headerContainer ul .link:hover{
+    text-decoration: none;
+  }
+
+ .search{
+  margin: 2rem 1rem ;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  padding: .5rem 1rem ;
+  width: 16rem;
+  text-align: center;
+  font-size: 1.1rem;font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+  height: 4rem;
+  border-radius: 3rem;
+ }
+
+.search input{
+  width: 80%;
+  height: 3rem;
+  border: none;
+  /* border-right: 1px solid black; */
+  outline: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.searchBtn{
+  background-color: rgb(245, 220, 188);
+  font-size: 1.1rem;
+  border-radius: 100%;border: none;
+  padding: .3rem .9rem;
+}.searchBtn:hover{
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+
+
+.logOutBtn{
+  padding: .5rem 1rem ;
+  font-size: 1.3rem;
+  font-weight: 800;background-color: rgb(177, 17, 102);
+  border: none;
+  border-radius: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(8, 233, 195);
+}
+
+.logOutBtn:hover{
+  background-color: red;color: aliceblue;
+}
